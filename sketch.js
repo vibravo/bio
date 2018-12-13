@@ -11,5 +11,5 @@ function draw() {
 	noStroke();
 	fill(241,213,204);
 	rect(0,120,400,480);
-	image(headshot,105,100,0,0);
+	image(headshot,105,100,100,100);
 }
