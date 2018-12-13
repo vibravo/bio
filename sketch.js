@@ -4,12 +4,12 @@ function preload() {
 }
 function setup() {
 	createCanvas(400, 600);
-	headshot.resize(200,0);
+	headshot.resize(20,0);
 }
 
 function draw() {
 	noStroke();
 	fill(241,213,204);
 	rect(0,120,400,480);
-	image(headshot,105,0);
+	image(headshot,105,100,0,0);
 }
