@@ -4,7 +4,7 @@ function preload() {
 }
 function setup() {
 	createCanvas(400, 600);
-	headshot.resize(20,0);
+	headshot.resize(100,0);
 }
 
 function draw() {
