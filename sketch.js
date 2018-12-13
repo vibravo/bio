@@ -10,6 +10,6 @@ function setup() {
 function draw() {
 	noStroke();
 	fill(241,213,204);
-	rect(0,120,400,480);
+	rect(0,120,500,480);
 	image(headshot,105,0,200,200);
 }
